@@ -1,4 +1,4 @@
-package Behavior;
+package Behavior.Observer;
 
 /*
  观察者模式

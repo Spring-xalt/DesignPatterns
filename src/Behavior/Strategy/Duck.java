@@ -1,4 +1,4 @@
-package Behavior;
+package Behavior.Strategy;
 
 /*
  *@auther:Jimi
