@@ -15,7 +15,6 @@ package Behavior.command;
 public interface Commander {
     void execute();
     void undo();
-
 }
 
 // 接收者 真正实现
@@ -26,7 +25,6 @@ class LightReceiver {
     public void off(){
         System.out.println("Light is off");
     }
-
 }
 
 //开关电灯的具体命令
@@ -75,7 +73,6 @@ class Clients{
         // 定义调用者(发送)和接收者(处理返回)
         Invoker invoker = new Invoker();
         LightReceiver l = new LightReceiver();
-
 
         invoker.setCommander(new LightsOnCommand(l));
         invoker.pressButton();
